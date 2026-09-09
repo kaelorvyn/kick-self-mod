@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.kickselfmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "KickCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
